@@ -5,14 +5,6 @@ on:
     - cron: '27 18 * * *'
   workflow_dispatch:  # Allows manual triggering
 
-# Controls when the workflow will run
-on:
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-  # Runs this workflow automatically on a schedule following the chrontab expression syntax
-  schedule:
-    - cron: '17 11 * * *'
-
 jobs:
   create_digest:
     runs-on: ubuntu-latest
