@@ -2,7 +2,7 @@ name: Reddit Post Digest
 
 on:
   schedule:
-    - cron: '27 18 * * *'
+    - cron: '27 33 * * *'
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
