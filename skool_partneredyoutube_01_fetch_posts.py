@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/10mianE-19RDI3sUOdYtNToZd-qfBX38P
 """
 
-!pip install -q -U praw google-generativeai chromadb sentence_transformers
-
 from google.colab import userdata
 
 # Reddit API credentials
