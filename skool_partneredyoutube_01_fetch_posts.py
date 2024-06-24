@@ -7,24 +7,6 @@
 #   https://colab.research.google.com/drive/10mianE-19RDI3sUOdYtNToZd-qfBX38P
 # """
 
-from google.colab import userdata
-
-# Reddit API credentials
-REDDIT_CLIENT_ID = userdata.get('REDDIT_CLIENT_ID')
-REDDIT_CLIENT_SECRET = userdata.get('REDDIT_CLIENT_SECRET')
-REDDIT_USER_AGENT = userdata.get('REDDIT_USER_AGENT')
-REDDIT_USERNAME = userdata.get('REDDIT_USERNAME')
-REDDIT_PASSWORD = userdata.get('REDDIT_PASSWORD')
-GEMINI_API_KEY = userdata.get('GEMINI_API_KEY')
-
-import os
-os.environ['REDDIT_CLIENT_ID'] = REDDIT_CLIENT_ID
-os.environ['REDDIT_CLIENT_SECRET'] = REDDIT_CLIENT_SECRET
-os.environ['REDDIT_USER_AGENT'] = REDDIT_USER_AGENT
-os.environ['REDDIT_USERNAME'] = REDDIT_USERNAME
-os.environ['REDDIT_PASSWORD'] = REDDIT_PASSWORD
-os.environ['GEMINI_API_KEY'] = GEMINI_API_KEY
-
 import os
 import praw
 import google.generativeai as genai
